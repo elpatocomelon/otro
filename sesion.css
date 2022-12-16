@@ -1,0 +1,57 @@
+.body {
+    background-image: url(img/dayglow.jpg);
+}
+.contenedor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/fondo.jpg);
+    justify-content: center;
+    
+
+}
+.formulario {
+    width: 40%;
+    height: auto;
+    background-color: rgb(180, 180, 180);
+    margin: auto;
+    border-radius: 2% ;
+    max-width: 500px;
+    
+    
+    
+}
+.formulario h1 {
+    display: flex;
+    justify-content: center;
+}
+.username{
+    display: flex;
+    justify-content: center;
+}
+.password{
+    display: flex;
+    justify-content: center;
+}
+
+.INICIO{
+    display: flex;
+    justify-content: center;
+}
+.register{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .formulario {
+        width: 65%; 
+
+        }
+       
+      
+}
